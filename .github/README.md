@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iot-jobs-data-plane`](https://www.npmjs.com/package/@aws-sdk/client-iot-jobs-data-plane/v/3.1022.0).
+[`@aws-sdk/client-iot-jobs-data-plane`](https://www.npmjs.com/package/@aws-sdk/client-iot-jobs-data-plane/v/3.1023.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1022.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1023.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-UBEgdi5tOi9qnKv0O4yx7AThAs3t92UMOgpsMwSO+cwlr9/Qz1kilt2ZjTm+AN/C
+sha384-ShwNdxhd6GeKLyLrWhxFgFSujxZlk5G7049eIi37D5X2+X+wghOMje5vn8x21w/L
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iot-jobs-data-plane": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1022.0/index.min.mjs"
+            "@aws-sdk/client-iot-jobs-data-plane": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1023.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1022.0/index.min.mjs": "sha384-UBEgdi5tOi9qnKv0O4yx7AThAs3t92UMOgpsMwSO+cwlr9/Qz1kilt2ZjTm+AN/C"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1023.0/index.min.mjs": "sha384-ShwNdxhd6GeKLyLrWhxFgFSujxZlk5G7049eIi37D5X2+X+wghOMje5vn8x21w/L"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iot-jobs-data-plane": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1022.0/index.min.mjs"
+                        "@aws-sdk/client-iot-jobs-data-plane": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1023.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1022.0/index.min.mjs": "sha384-UBEgdi5tOi9qnKv0O4yx7AThAs3t92UMOgpsMwSO+cwlr9/Qz1kilt2ZjTm+AN/C"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot-jobs-data-plane@3.1023.0/index.min.mjs": "sha384-ShwNdxhd6GeKLyLrWhxFgFSujxZlk5G7049eIi37D5X2+X+wghOMje5vn8x21w/L"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1022.0`)
+* Always pin to a specific version (`@3.1023.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iot-jobs-data-plane/blob/refs/tags/3.1022.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iot-jobs-data-plane/blob/refs/tags/3.1023.0/LICENSE
 ```
 
 ---
